@@ -24,8 +24,19 @@ public class base {
 		{
 			System.setProperty("webdriver.chrome.driver", url);
 			driver=new ChromeDriver();
-		}		
+		}
 		
+		else if(browserName.equals("Firefox"))
+		{
+			System.setProperty("webdriver.chrome.driver", url);
+			driver=new ChromeDriver();
+		}
+		
+		else if(browserName.equals("Opera"))
+		{
+			System.setProperty("webdriver.chrome.driver", url);
+			driver=new ChromeDriver();
+		}
 		else if(browserName.equals("IE"))
 		{
 			System.setProperty("webdriver.chrome.driver", url);
