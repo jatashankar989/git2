@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38777" started-at="2019-10-12T17:53:38 IST" finished-at="2019-10-12T17:54:16 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="38777" started-at="2019-10-12T17:53:38 IST" finished-at="2019-10-12T17:54:16 IST">
+      <class name="personalTest.testing">
+        <test-method status="PASS" signature="startingCommand()[pri:0, instance:personalTest.testing@2f686d1f]" name="startingCommand" is-config="true" duration-ms="21" started-at="2019-10-12T17:53:38 IST" finished-at="2019-10-12T17:53:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startingCommand -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:personalTest.testing@2f686d1f]" name="login" duration-ms="24517" started-at="2019-10-12T17:53:38 IST" data-provider="getData" finished-at="2019-10-12T17:54:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rajashankar@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jaibabaji]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="closingCommand()[pri:0, instance:personalTest.testing@2f686d1f]" name="closingCommand" is-config="true" duration-ms="119" started-at="2019-10-12T17:54:16 IST" finished-at="2019-10-12T17:54:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingCommand -->
+      </class> <!-- personalTest.testing -->
+      <class name="personalTest.testing2">
+        <test-method status="PASS" signature="startingCommand()[pri:0, instance:personalTest.testing2@3fee9989]" name="startingCommand" is-config="true" duration-ms="0" started-at="2019-10-12T17:53:38 IST" finished-at="2019-10-12T17:53:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startingCommand -->
+        <test-method status="PASS" signature="login()[pri:0, instance:personalTest.testing2@3fee9989]" name="login" duration-ms="13766" started-at="2019-10-12T17:54:02 IST" finished-at="2019-10-12T17:54:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="endingClause()[pri:0, instance:personalTest.testing2@3fee9989]" name="endingClause" is-config="true" duration-ms="267" started-at="2019-10-12T17:54:16 IST" finished-at="2019-10-12T17:54:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endingClause -->
+      </class> <!-- personalTest.testing2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
